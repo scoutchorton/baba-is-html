@@ -1,0 +1,24 @@
+@use 'variables';
+
+.bb-text-container {
+	display: grid;
+
+	gap: 5px;
+	grid-auto-flow: column dense;
+	justify-content: center;
+}
+.bb-text {
+	display: inline-flex;
+	height: 2em;
+	width: 2em;
+
+	color: white;
+	font-size: 1em;
+	line-height: 1;
+	text-align: center;
+	text-transform: uppercase;
+
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}

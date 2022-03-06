@@ -1,0 +1,30 @@
+{
+  "name": "baba-is-html",
+  "version": "1.0.0",
+  "description": "A clone of the game Baba is You implemented in HTML",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "sass": "sass ./src/sass/styles.scss ./dist/styles.css",
+    "sass:watch": "sass --watch ./src/sass/styles.scss ./dist/styles.css",
+    "prebuild": "npm run sass",
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scoutchorton/baba-is-html.git"
+  },
+  "author": "scoutchorton",
+  "bugs": {
+    "url": "https://github.com/scoutchorton/baba-is-html/issues"
+  },
+  "homepage": "https://github.com/scoutchorton/baba-is-html#readme",
+  "devDependencies": {
+    "sass": "^1.49.9",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "electron": "^17.1.0"
+  }
+}

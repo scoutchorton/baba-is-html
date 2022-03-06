@@ -1,0 +1,19 @@
+@use "variables";
+
+.bb-title-container {
+	margin: auto;
+
+	font-size: 5em;
+}
+
+html, body {
+	display: flex;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+	background: black;
+	font-family: 'Comic Sans MS', cursive, sans-serif;
+	user-select: none;
+}
